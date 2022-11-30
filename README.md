@@ -7,8 +7,8 @@
 ## 결과는?
 - ~~좋지 않았다...ㅠㅡㅠ~~
 - Gaussian prior에서 생성되는 문장은 어느 정도 fluent.
-- LSTM-VAE도 좋은 성능을 보였다.
-- 그러나 sentiment flipping을 하면 고장나 버림.
+- LSTM-VAE의 reconstruction은 좋은 성능을 보였다.
+- 그러나 sentiment flipping을 하면 fluency가 너무 떨어짐 (sentiment는 바뀌기는 하는 듯).
 
 ## references
 - [official_code](https://github.com/asyml/texar/tree/master/examples/text_style_transfer)
